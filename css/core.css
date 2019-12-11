@@ -1,6 +1,143 @@
+*{
+  padding: 0;
+}
+
+.roboto{
+  font-family: 'Roboto', sans-serif;
+}
+.oswald{
+  font-family: 'Oswald', sans-serif;
+}
+
+
 .logo{
   max-height: 100px;
 }
 .header_top{
   text-align: center;
+}
+.header_menu{
+  display: flex;
+  list-style-type: none;
+  color: #fce4fd;
+  font-size: 18px;
+  justify-content: flex-end;
+  line-height: 100px;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+}
+.header_menu a{
+  color: #47054a;
+  font-weight: 500;
+}
+.header_menu li{
+  padding: 20px;
+}
+.part_header{
+  width: 1980px;
+  margin-left: -400px;
+}
+
+
+
+.part_two{
+  background-image: url(../images/HOC-part_two.png);
+  background-repeat: no-repeat;
+  height: 950px;
+  width: 1980px;
+  margin-left: -400px;
+  margin-top: -160px;
+}
+.part_three, .part_three_top, .part_four{
+  width: 1980px;
+  margin-left: -400px;
+}
+.part_three_headline{
+  margin-top: -10px;
+  color: #5c245f;
+  font-size: 60px;
+  font-weight: 600;
+}
+.part_three_subline{
+  color: #bab2bb;
+  font-size: 45px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+
+
+.wrapper{
+  max-width: 1980px;
+  margin: 0 auto;
+}
+.part_five{
+  background-image: url(../images/HOC-footer.png);
+  background-repeat: no-repeat;
+  height: 495px;
+}
+.move_down{
+  margin-top: 200px;
+}
+.headline{
+  color: #47054a;
+  font-size: 100px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  transform: scale(1, .8);
+  padding: 30px 0px;
+}
+.subline{
+  color: #fce4fd;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  line-height: 25px;
+}
+
+
+
+
+
+.offer_box h1{
+  background-image: linear-gradient(to right, white , #a980ac);
+  color: #5c245f;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 40px;
+  transform: scale(1, .9);
+  margin-bottom: 20px;
+}
+.offer_list ol{
+  list-style-type: none;
+  height: 460px;
+}
+.offer_list ol li{
+  color: #8c76a2;
+  padding: 5px 30px;
+  font-size: 20px;
+}
+.offer_button{
+  text-align: center;
+}
+.offer_price{
+  color: #5c245f;
+  font-size: 20px;
+  font-weight: 700
+}
+.offer_month{
+  color: #9b689e;
+  font-size: 20px;
+  font-weight: 700
+}
+.offer_moms{
+  color: #86709e;
+  font-size: 14px;
+  font-weight: 400
+}
+
+.part_four{
+  text-align: center;
+  padding: 100px 10px;
+  color: #674e68;
+  font-size: 30px;
 }
