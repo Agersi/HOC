@@ -10,17 +10,17 @@
     <title>HOUSE OF CODE TASK</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container"><!--container ends in footer-->
       <div class="row">
         <div class="col">
-          <a href="index.php?page=home"><img class="logo" src="images/NewLogo.png"></a>
-        </div>
-        <div class="col-5">
-          Signin form goes here
+          <a href="index.php?page=home"><img class="logo" src="images/logoHOC.png"></a>
         </div>
         <div class="col">
-          Signup popout goes here
+          <ul>
+            <li>SDK'S</li>
+            <li>Pricing</li>
+            <li>Contact</li>
+            <li><a href="index.php?page=signin">Sign In</a></li>
+          </ul>
         </div>
       </div><!--row end-->
-    </div><!--container-fluid end-->
-    <div class="container"><!--container ends in footer-->
