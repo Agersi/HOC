@@ -1,7 +1,6 @@
-        </main>   <!-- role-main slut-->
       <footer>
 
       </footer>
-    </div>  <!--wrapper slut-->
+    </div>  <!--container end-->
   </body>
 </html>
