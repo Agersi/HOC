@@ -17,7 +17,7 @@
     <div class="sign_in_form">
       <form action="code/check_sign_in.php" method="post" autocomplete="off">
         <label for="email">E-mail</label><br>
-        <input class="input_move" type="email" name="email" autocomplete="off"><br>
+        <input class="input_move" type="email" name="email" autocomplete="off" autofocus><br>
         <label for="password">Password</label><br>
         <input class="input_move" type="password" name="password" autocomplete="off"><br>
         <div class="form_flex">
