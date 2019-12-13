@@ -25,7 +25,21 @@
               <li>SDK'S</li>
               <li>Pricing</li>
               <li>Contact</li>
-              <li><a href="index.php?page=sign_in" class="signin_button">Sign In</a></li>
+              <?php
+                if(isset($_SESSION['username'])){
+                  echo '<li><a href="code/sign_out.php" class="signin_button">Sign Out</a></li>';
+                }
+                else{
+                  echo '<li><a href="index.php?page=sign_in" class="signin_button">Sign In</a></li>';
+                }
+
+                if(isset($_SESSION['auth'])){
+                  $auth = $_SESSION['auth'];
+                  if($auth == 1){
+                    echo '<li><a href="index.php?page=admin" class="signin_button">Admin</a></li>';
+                  }
+                }
+              ?>
             </ul>
           </div>
           <div class="col-2">

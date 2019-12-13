@@ -1,22 +1,19 @@
 <div class="row part_sign_in roboto">
 
   <div class="col-4 move_down">
+    <?php
+    if (isset($_SESSION['SIGN_IN_ERROR'])) {
+      foreach($_SESSION['SIGN_IN_ERROR'] as $key => $value) {
+        echo '<h2 class="succes roboto">' . $value . '</h2>';
+      }
+    }
+    ?>
   </div>
 
   <div class="col-4 move_down">
 
     <h1 class="sec_headline roboto">Sign In</h1>
 
-    <?php
-    if (isset($_SESSION['SIGN_IN_ERROR'])) {
-      foreach($_SESSION['SIGN_IN_ERROR'] as $key => $value) {
-        echo '<h2 class="succes">' . $value . '</h2>';
-      }
-    }
-    if (isset($_SESSION['SIGN_IN_ERROR'])) {
-      session_unset($_SESSION['SIGN_IN_ERROR']);
-    }
-    ?>
     <div class="sign_in_form">
       <form action="code/check_sign_in.php" method="post" autocomplete="off">
         <label for="email">E-mail</label><br>

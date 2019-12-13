@@ -1,6 +1,6 @@
 <?php
 
-$objCon = new mysqli('127.0.0.1', 'root', '', '');
+$objCon = new mysqli('localhost', 'root', '', 'hoc');
 
 if ($objCon->connect_errno) {
 	die('kan ikke forbinde(' . $objCon->connect_errno . ')'.$objCon->connect_errno);

@@ -1,22 +1,18 @@
 <div class="row part_forgot_pw roboto">
 
   <div class="col-4 move_down">
-  </div>
-
-  <div class="col-4 move_down">
-
-    <h1 class="sec_headline roboto">Forgot password?</h1>
-
     <?php
     if (isset($_SESSION['FORGOT_PW_ERROR'])) {
       foreach($_SESSION['FORGOT_PW_ERROR'] as $key => $value) {
         echo '<h2 class="succes">' . $value . '</h2>';
       }
     }
-    if (isset($_SESSION['FORGOT_PW_ERROR'])) {
-      session_unset($_SESSION['FORGOT_PW_ERROR']);
-    }
     ?>
+  </div>
+
+  <div class="col-4 move_down">
+
+    <h1 class="sec_headline roboto">Forgot password?</h1>
 
     <div class="forgot_pw_form">
       <h2 class="forgot_headline roboto">Provide your e-mail and we request a reset link for you.</h1>

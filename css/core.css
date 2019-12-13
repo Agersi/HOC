@@ -254,3 +254,41 @@
 .forgot_move{
   margin-top: 80px;
 }
+.succes{
+  color: #684f69;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  padding: 50px 20px;
+  border-radius: 15px;
+  margin-top: 134px;
+}
+.check_mark_styling{
+  color: #aa81ac;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 50px;
+}
+.reset_headline{
+  color: #674e68;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  padding: 50px 0px 200px 0px;
+}
+.close_button{
+  padding: 20px 60px;
+  color: white !important;
+  background-color: #9b689e;
+  border-radius: 50px;
+  font-size: 25px;
+  border: none;
+  text-decoration: none;
+  margin: 0px 150px;
+  text-align: center;
+}
+.flex_reset_pw{
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
