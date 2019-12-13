@@ -12,7 +12,7 @@
    </h3>
   </div>
 
-  <div class="col-6">
+  <div class="col-6 move_down">
   </div>
 
 </div><!--part_two end-->
@@ -147,7 +147,7 @@
       the importance of publicity are generally more successful than those who use
       adverticing alone to reach their target audiences.
     </p>
-    <div class="contact_button">Contact</div>
+    <button class="contact_button"><i class="fas fa-headset"></i> Contact</button>
   </div>
 
   <div class="col-3">
@@ -157,10 +157,16 @@
 
 <div class="row align-self-start part_five">
 
-  <div class="col">
+  <div class="col-2">
+  </div>
+
+  <div class="col move_down_five">
     <h4>CVR: 36030410</h4>
     <h4>info@houseofcode.io</h4>
     <h4>+45 72 17 02 20</h4>
+  </div>
+
+  <div class="col-2">
   </div>
 
 </div><!--part_five end-->
