@@ -39,94 +39,118 @@
 
   <div class="col part_three_small">
     <div class="offer_box">
-      <h1>Small</h1>
-      <div class="offer_list">
-        <ol>
-          <li>Dashboard</li>
-          <li>Push</li>
-          <li>Ubegrænset antal brugere</li>
-          <li>Understøtter 1 sprog</li>
-          <li>Op til 3 content typer</li>
-          <li>1 GB data storage</li>
-          <li>1 GB data transfer</li>
-          <li>Email support</li>
-        </ol>
-      </div>
-      <div class="offer_button">
-        <h3 class="offer_price">1.000DKK<span class="offer_month">/måned</span></h3>
-        <h4 class="offer_moms">Ekskl. moms</h4>
-      </div>
+      <?php
+        $sql_product_one = "SELECT * FROM products WHERE product_id=1";
+        $res_product_one = $objCon->query($sql_product_one);
+        while($row_product_one = $res_product_one->fetch_object()){
+          echo '<h1>'. $row_product_one->product_name . '</h1>';
+          echo '<div class="offer_list">';
+            echo '<ol>';
+              echo '<li>'. $row_product_one->product_panel . '</li>';
+              echo '<li>'. $row_product_one->product_push . '</li>';
+              echo '<li>'. $row_product_one->product_users . '</li>';
+              echo '<li>'. $row_product_one->product_lang . '</li>';
+              echo '<li>'. $row_product_one->product_content . '</li>';
+              echo '<li>'. $row_product_one->product_storage . '</li>';
+              echo '<li>'. $row_product_one->product_transfer . '</li>';
+              echo '<li>'. $row_product_one->product_email_support . '</li>';
+            echo '</ol>';
+          echo '</div>';
+          echo '<div class="offer_button">';
+            echo '<h3 class="offer_price">' . $row_product_one->product_price . 'DKK<span class="offer_month">/måned</span></h3>';
+            echo '<h4 class="offer_moms">Ekskl. moms</h4>';
+          echo '</div>';
+      }
+      ?>
     </div>
   </div>
 
   <div class="col part_three_medium">
     <div class="offer_box">
-      <h1>Medium</h1>
-      <div class="offer_list">
-        <ol>
-          <li>Dashboard</li>
-          <li>Push</li>
-          <li>Ubegrænset antal brugere</li>
-          <li>Understøtter 3 sprog</li>
-          <li>Op til 5 content typer</li>
-          <li>5 GB data storage</li>
-          <li>5 GB data transfer</li>
-          <li>Email support</li>
-          <li>Mulighed for custom plugins</li>
-        </ol>
-      </div>
-      <div class="offer_button">
-        <h3 class="offer_price">2.000DKK<span class="offer_month">/måned</span></h3>
-        <h4 class="offer_moms">Ekskl. moms</h4>
-      </div>
+      <?php
+        $sql_product_two = "SELECT * FROM products WHERE product_id=2";
+        $res_product_two = $objCon->query($sql_product_two);
+        while($row_product_two = $res_product_two->fetch_object()){
+          echo '<h1>'. $row_product_two->product_name . '</h1>';
+          echo '<div class="offer_list">';
+            echo '<ol>';
+              echo '<li>'. $row_product_two->product_panel . '</li>';
+              echo '<li>'. $row_product_two->product_push . '</li>';
+              echo '<li>'. $row_product_two->product_users . '</li>';
+              echo '<li>'. $row_product_two->product_lang . '</li>';
+              echo '<li>'. $row_product_two->product_content . '</li>';
+              echo '<li>'. $row_product_two->product_storage . '</li>';
+              echo '<li>'. $row_product_two->product_transfer . '</li>';
+              echo '<li>'. $row_product_two->product_email_support . '</li>';
+              echo '<li>'. $row_product_two->product_plugins . '</li>';
+            echo '</ol>';
+          echo '</div>';
+          echo '<div class="offer_button">';
+            echo '<h3 class="offer_price">' . $row_product_two->product_price . 'DKK<span class="offer_month">/måned</span></h3>';
+            echo '<h4 class="offer_moms">Ekskl. moms</h4>';
+          echo '</div>';
+      }
+      ?>
     </div>
   </div>
 
   <div class="col part_three_large">
     <div class="offer_box">
-      <h1>Large</h1>
-      <div class="offer_list">
-        <ol>
-          <li>Dashboard</li>
-          <li>Push</li>
-          <li>Ubegrænset antal brugere</li>
-          <li>Understøtter 5 sprog</li>
-          <li>Op til 10 content typer</li>
-          <li>25 GB data storage</li>
-          <li>25 GB data transfer</li>
-          <li>Email support</li>
-          <li>Mulighed for custom plugins</li>
-          <li>Telefon support</li>
-        </ol>
-      </div>
-      <div class="offer_button">
-        <h3 class="offer_price">5.000DKK<span class="offer_month">/måned</span></h3>
-        <h4 class="offer_moms">Ekskl. moms</h4>
-      </div>
+      <?php
+        $sql_product_three = "SELECT * FROM products WHERE product_id=3";
+        $res_product_three = $objCon->query($sql_product_three);
+        while($row_product_three = $res_product_three->fetch_object()){
+          echo '<h1>'. $row_product_three->product_name . '</h1>';
+          echo '<div class="offer_list">';
+            echo '<ol>';
+              echo '<li>'. $row_product_three->product_panel . '</li>';
+              echo '<li>'. $row_product_three->product_push . '</li>';
+              echo '<li>'. $row_product_three->product_users . '</li>';
+              echo '<li>'. $row_product_three->product_lang . '</li>';
+              echo '<li>'. $row_product_three->product_content . '</li>';
+              echo '<li>'. $row_product_three->product_storage . '</li>';
+              echo '<li>'. $row_product_three->product_transfer . '</li>';
+              echo '<li>'. $row_product_three->product_email_support . '</li>';
+              echo '<li>'. $row_product_three->product_plugins . '</li>';
+              echo '<li>'. $row_product_three->product_phone_support . '</li>';
+            echo '</ol>';
+          echo '</div>';
+          echo '<div class="offer_button">';
+            echo '<h3 class="offer_price">' . $row_product_three->product_price . 'DKK<span class="offer_month">/måned</span></h3>';
+            echo '<h4 class="offer_moms">Ekskl. moms</h4>';
+          echo '</div>';
+      }
+      ?>
     </div>
   </div>
 
   <div class="col part_three_enterprice">
     <div class="offer_box">
-      <h1>Enterprice</h1>
-      <div class="offer_list">
-        <ol>
-          <li>Dashboard</li>
-          <li>Push</li>
-          <li>Ubegrænset antal brugere</li>
-          <li>Ubegrænset antal sprog</li>
-          <li>Ubegrænset content typer</li>
-          <li>Ubegrænset data storage</li>
-          <li>Ubegrænset data transfer</li>
-          <li>Email support</li>
-          <li>Mulighed for custom plugins</li>
-          <li>Telefon support</li>
-        </ol>
-      </div>
-      <div class="offer_button">
-        <h3 class="offer_price">Fra 10.000DKK<span class="offer_month">/måned</span></h3>
-        <h4 class="offer_moms">Ekskl. moms</h4>
-      </div>
+      <?php
+        $sql_product_four = "SELECT * FROM products WHERE product_id=4";
+        $res_product_four = $objCon->query($sql_product_four);
+        while($row_product_four = $res_product_four->fetch_object()){
+          echo '<h1>'. $row_product_four->product_name . '</h1>';
+          echo '<div class="offer_list">';
+            echo '<ol>';
+              echo '<li>'. $row_product_four->product_panel . '</li>';
+              echo '<li>'. $row_product_four->product_push . '</li>';
+              echo '<li>'. $row_product_four->product_users . '</li>';
+              echo '<li>'. $row_product_four->product_lang . '</li>';
+              echo '<li>'. $row_product_four->product_content . '</li>';
+              echo '<li>'. $row_product_four->product_storage . '</li>';
+              echo '<li>'. $row_product_four->product_transfer . '</li>';
+              echo '<li>'. $row_product_four->product_email_support . '</li>';
+              echo '<li>'. $row_product_four->product_plugins . '</li>';
+              echo '<li>'. $row_product_four->product_phone_support . '</li>';
+            echo '</ol>';
+          echo '</div>';
+          echo '<div class="offer_button">';
+            echo '<h3 class="offer_price">' . $row_product_four->product_price . 'DKK<span class="offer_month">/måned</span></h3>';
+            echo '<h4 class="offer_moms">Ekskl. moms</h4>';
+          echo '</div>';
+      }
+      ?>
     </div>
   </div>
 
