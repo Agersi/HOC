@@ -1,4 +1,5 @@
-#INTRO
+# INTRO
+
 This is a task done for House of Code.
 
 The task asks for the use of:
@@ -22,7 +23,8 @@ Ability to logout.
 Error messages on wrong or missing form inputs.
 
 
-#Important INFO
+# Important INFO
+
 This project was set up on a WAMP server.
 This means the "dbconnect" file in the "includes" folder connects to a localhost.
 Username is set to "root" and no password, and the database is called hoc.
@@ -41,7 +43,8 @@ email: admin@admin.com
 password: admin
 
 
-#Work hours
+# Work hours
+
 Tuesday the 10. of December: 5 hours
 Wednesday the 11. of December: 5 hours
 Thursday the 12. of December: 5 hours
