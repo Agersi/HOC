@@ -14,13 +14,13 @@ I do use Bootstrap for the layout and grid systems.
 If given more time, I would love to try and learn C# / .NET and Angular.
 
 This task shows:
-A landingpage.
-A signup page.
-A signin page.
-A forgot password page.
-A CMS to change products on landing page.
-Ability to logout.
-Error messages on wrong or missing form inputs.
+* A landingpage.
+* A signup page.
+* A signin page.
+* A forgot password page.
+* A CMS to change products on landing page.
+* Ability to logout.
+* Error messages on wrong or missing form inputs.
 
 
 # Important INFO
@@ -35,12 +35,12 @@ If sql files are imported and the db connect file is pointing to the correct dat
 You can login with one of these 2 users, or create your own (if you make your own it will not have the admin page).
 
 Normal user logon:
-email: user@user.com
-password: user
+* email: user@user.com
+* password: user
 
 Admin logon:
-email: admin@admin.com
-password: admin
+* email: admin@admin.com
+* password: admin
 
 
 # Work hours
