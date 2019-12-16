@@ -45,10 +45,10 @@ password: admin
 
 # Work hours
 
-Tuesday the 10. of December: 5 hours
-Wednesday the 11. of December: 5 hours
-Thursday the 12. of December: 5 hours
-Friday the 13. of December: 4 hours
-Saturday the 14. of December: 0 hours
-Sunday the 15. of December:
-Monday the 16. of December: 5 hours
+* Tuesday the 10. of December: 5 hours
+* Wednesday the 11. of December: 5 hours
+* Thursday the 12. of December: 5 hours
+* Friday the 13. of December: 4 hours
+* Saturday the 14. of December: 0 hours
+* Sunday the 15. of December:
+* Monday the 16. of December: 5 hours
